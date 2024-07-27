@@ -1,7 +1,7 @@
 package com.example.survey_form;
 
 // Author: Sadaf Ashraf
-// Main Class
+// SurveyFormApplication Main Class
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
