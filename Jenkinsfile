@@ -37,7 +37,7 @@ pipeline {
                     sh 'mvn clean package'
 
                     // Move the WAR file to the target folder if not already there
-                    sh 'mv target/survey-form.war target/'
+                    //sh 'mv target/survey-form.war target/'
 
                     // Archive the WAR file so that it can be accessed later
                     archiveArtifacts artifacts: 'target/survey-form.war', allowEmptyArchive: true
