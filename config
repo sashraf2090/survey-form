@@ -1,0 +1,17 @@
+apiVersion: v1
+kind: Config
+clusters:
+  - name: survey-form-cluster
+    cluster:
+      server: https://18.207.103.242/k8s/clusters/c-m-xgnsjnjb
+      certificate-authority-data: LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSUJ2VENDQVdPZ0F3SUJBZ0lCQURBS0JnZ3Foa2pPUFFRREFqQkdNUnd3R2dZRFZRUUtFeE5rZVc1aGJXbGoKYkdsemRHVnVaWEl0YjNKbk1TWXdKQVlEVlFRRERCMWtlVzVoYldsamJHbHpkR1Z1WlhJdFkyRkFNVGN5TWpNNQpNek0zTURBZUZ3MHlOREEzTXpFd01qTTJNVEJhRncwek5EQTNNamt3TWpNMk1UQmFNRVl4SERBYUJnTlZCQW9UCkUyUjVibUZ0YVdOc2FYTjBaVzVsY2kxdmNtY3hKakFrQmdOVkJBTU1IV1I1Ym1GdGFXTnNhWE4wWlc1bGNpMWoKWVVBeE56SXlNemt6TXpjd01Ga3dFd1lIS29aSXpqMENBUVlJS29aSXpqMERBUWNEUWdBRStkK3FYbU12YUpoMgpDeFlEaGl0Vnl0RG5RdXQ1V1NoN0lJdHZtSnFBU2Yvajd6NVZGMURkMkd0VzNraHFDVHBJMG1mMk10Lzl3TmRrCjlQOUdldjBTc0tOQ01FQXdEZ1lEVlIwUEFRSC9CQVFEQWdLa01BOEdBMVVkRXdFQi93UUZNQU1CQWY4d0hRWUQKVlIwT0JCWUVGTXNyd0NCUlF3c0hRR2U5ODc0RGNiQUZ5ZmtoTUFvR0NDcUdTTTQ5QkFNQ0EwZ0FNRVVDSVFDWApkWnhkVERoMEt2MU9WbFFvOG1PUGZodjJJamJGbFppZWUzZTAxRUwwR0FJZ1REcVdxRkVvSW1OT05GdThsOUxpCjBVTm84eFd3T05RUisrK0x3dTdpT1Y4PQotLS0tLUVORCBDRVJUSUZJQ0FURS0tLS0t
+users:
+  - name: survey-form-cluster
+    user:
+      token: kubeconfig-user-gw9s6ncrqq:bb2n9kt9l2mzv2kcv7wl59b6jv9gjs6k2wd84xb4vkgvslbbpvcpp4
+contexts:
+  - name: survey-form-cluster
+    context:
+      user: survey-form-cluster
+      cluster: survey-form-cluster
+current-context: survey-form-cluster
