@@ -41,22 +41,22 @@ public class Survey {
     private String dateOfSurvey;
 
     @Column(name = "liked_students", nullable = true)
-    private  String likedStudents;
+    private  Boolean likedStudents;
 
     @Column(name = "liked_location", nullable = true)
-    private  String likedLocation;
+    private  Boolean likedLocation;
 
     @Column(name = "liked_campus", nullable = true)
-    private  String likedCampus;
+    private  Boolean likedCampus;
 
     @Column(name = "liked_atmosphere", nullable = true)
-    private  String likedAtmosphere;
+    private  Boolean likedAtmosphere;
 
     @Column(name = "liked_dorms", nullable = true)
-    private  String likedDorms;
+    private  Boolean likedDorms;
 
     @Column(name = "liked_Sports", nullable = true)
-    private  String likedSports;
+    private  Boolean likedSports;
     @Column(name = "how_became_interested", nullable = true)
     private  String howBecameInterested;
 
@@ -146,51 +146,51 @@ public class Survey {
         this.dateOfSurvey = dateOfSurvey;
     }
 
-    public String getLikedStudents(){
+    public Boolean getLikedStudents(){
         return likedStudents;
     }
 
-    public void setLikedStudents(String likedStudents){
+    public void setLikedStudents(Boolean likedStudents){
         this.likedStudents = likedStudents;
     }
 
-    public String getLikedLocation(){
+    public Boolean getLikedLocation(){
         return likedLocation;
     }
 
-    public void setLikedLocation(String likedLocation){
+    public void setLikedLocation(Boolean likedLocation){
         this.likedLocation = likedLocation;
     }
 
-    public String getLikedCampus(){
+    public Boolean getLikedCampus(){
         return likedCampus;
     }
 
-    public void setLikedCampus(String likedCampus){
+    public void setLikedCampus(Boolean likedCampus){
         this.likedCampus = likedCampus;
     }
 
-    public String getLikedAtmosphere(){
+    public Boolean getLikedAtmosphere(){
         return likedAtmosphere;
     }
 
-    public void setLikedAtmosphere(String likedAtmosphere){
+    public void setLikedAtmosphere(Boolean likedAtmosphere){
         this.likedAtmosphere = likedAtmosphere;
     }
 
-    public String getLikedDorms(){
+    public Boolean getLikedDorms(){
         return likedDorms;
     }
 
-    public void setLikedDorms(String likedDorms){
+    public void setLikedDorms(Boolean likedDorms){
         this.likedDorms = likedDorms;
     }
 
-    public String getLikedSports(){
+    public Boolean getLikedSports(){
         return likedSports;
     }
 
-    public void setLikedSports(String likedSports){
+    public void setLikedSports(Boolean likedSports){
         this.likedSports = likedSports;
     }
 
