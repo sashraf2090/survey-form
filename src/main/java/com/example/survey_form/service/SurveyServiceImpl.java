@@ -1,7 +1,7 @@
 package com.example.survey_form.service;
 
 // Authors: Sadaf Ashraf
-// Implementation of SurveyService interface, it uses the predefined methods findall and save from the JPARepository
+// Implementation of SurveyService interface, it uses the predefined methods from the JPARepository
 
 import com.example.survey_form.exception.ResourceNotFoundException;
 import com.example.survey_form.model.Survey;
