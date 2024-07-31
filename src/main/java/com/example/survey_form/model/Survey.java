@@ -57,6 +57,7 @@ public class Survey {
 
     @Column(name = "liked_Sports", nullable = true)
     private  Boolean likedSports;
+    
     @Column(name = "how_became_interested", nullable = true)
     private  String howBecameInterested;
 
