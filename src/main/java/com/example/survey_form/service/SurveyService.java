@@ -1,7 +1,7 @@
 package com.example.survey_form.service;
 
 // Authors: Sadaf Ashraf
-// SurveyService interface with two methods for save and getting all surveys
+// SurveyService interface with two methods for save, update, edit and delete and get all surveys
 
 import com.example.survey_form.model.Survey;
 
